@@ -52,7 +52,7 @@
          }
 
 
-    if($admin == 2) {
+    
         global $table_prefix, $wpdb;
 
         $table_name = $table_prefix. "$tbl_name";
@@ -91,4 +91,4 @@
         } else {
             echo 'false';
         }
-        }
+        
