@@ -60,7 +60,7 @@ jQuery(document).ready(function ($) {
 		var form_name = $(".get_form_id").val();
 
         var get_form_email = $(".get_form_email").val();
-        alert(get_form_email);
+       
 
 
 		var get_form_captcha = $("#captcha").val();
