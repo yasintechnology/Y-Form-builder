@@ -1,7 +1,7 @@
      <?php   global $wpdb;
 
 
-        if(intval($_GET['ids'])){
+        if(intval(@$_GET['ids'])){
 
             $d_id = intval($_GET['ids']);
 
@@ -17,7 +17,7 @@
 
      }
 
-     if(intval($_GET['id'])){
+     if(intval(@$_GET['id'])){
 
         $ud_id = intval($_GET['id']);
         $f_id = intval($_GET['f-id']);
